@@ -1,18 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import MainMenu from './components/MainMenu'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>
-          <code> <h1> Olá </h1><br></br> <h2>Mundo</h2><br></br> <h3>React!</h3></code>
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <MainMenu />
+    </>
+  )
 }
 
-export default App;
+export default App
