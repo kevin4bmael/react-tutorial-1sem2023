@@ -3,6 +3,8 @@ import Box from '@mui/material/Box'
 import Header from './components/Header'
 import MainMenu from './components/MainMenu'
 import Sidebar from './components/Sidebar'
+import Footer from './components/Footer'
+import Content from './components/Content'
 
 const App = () => {
   return (
@@ -13,9 +15,9 @@ const App = () => {
         display: 'flex',
       }}>
         <Sidebar />
-        {/* <Content /> */}
+          <Content />
       </Box>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
