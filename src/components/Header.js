@@ -1,13 +1,12 @@
 import './Header.css'
+import Box from '@mui/material/Box'
 
 const Header = () => {
     return (
-        <header>
+        <Box component='header'>
             <h3>Logo</h3>
-        </header>
+        </Box>
     )
 }
-// forma de função para criação de app
 
 export default Header
-// essa tag exporta o app
