@@ -2,6 +2,7 @@ import Box from '@mui/material/Box'
 import Alert from './Alert'
 
 const Content = () => {
+
     return (
         <Box sx={{
             background: "#EEE",

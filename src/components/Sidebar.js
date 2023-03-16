@@ -1,15 +1,13 @@
 import Box from '@mui/material/Box'
 import fotoMontanha from './assets/img/montanha.jpeg'
-// import { ReactComponent as IconCarrinho } from './assets/img/carrinho.svg'
-// import { 
-//     FaCartPlus as IconCarrinhoMais,
-//     FaLuggageCart as IconOutroCarrinho 
-// } from 'react-icons/fa'
-// import { GiCartwheel as CarrinhoRoda } from 'react-icons/gi'
-// import fotoMontanha from './assets/img/montanha'
+import { ReactComponent as IconCarrinho } from './assets/img/carrinho.svg'
+import { 
+    FaCartPlus as IconCarrinhoMais,
+    FaLuggageCart as IconOutroCarrinho 
+} from 'react-icons/fa'
+import { GiCartwheel as CarrinhoRoda } from 'react-icons/gi'
 
 const Sidebar = () => {
-
     return (
         <Box sx={{
             background: "#DDD",
@@ -59,6 +57,5 @@ const Sidebar = () => {
         </Box>
     )
 }
-
 
 export default Sidebar

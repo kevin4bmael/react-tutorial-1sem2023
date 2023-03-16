@@ -10,7 +10,7 @@ const MainMenu = () => {
 
 const styles = {
     nav: {
-        background: '#FFB067',
+        background: '#555',
         color: '#000',
         padding: '20px',
         marginTop: '5px'
