@@ -10,7 +10,8 @@ import { GiCartwheel as CarrinhoRoda } from 'react-icons/gi'
 const Sidebar = () => {
     return (
         <Box sx={{
-            background: "#DDD",
+            color: '#7954A1',
+            background: "#EFDCF9",
             width: 200,
             height: 500,
             padding: '15px'
