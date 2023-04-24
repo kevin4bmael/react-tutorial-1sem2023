@@ -4,7 +4,7 @@ const typeColor = {
     success: "#cdefd6",
     error: '#efcdcd',
     info: '#cddeef',
-    warning: '#ebe5b7'
+    warning: '#ffff'
 }
 
 const Alert = ({type, children}) => {
